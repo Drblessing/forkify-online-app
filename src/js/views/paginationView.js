@@ -2,7 +2,7 @@ import View from './View.js';
 import icons from 'url:../../img/icons.svg';
 
 class PaginationView extends View {
-  _parentElement = document.querySelector('.pagination');
+  _parentElement = document.querySelector('.pagination'); // skipcq
   addHandlerClick(handler) {
     this._parentElement.addEventListener('click', e => {
       const btn = e.target.closest('.btn--inline');
