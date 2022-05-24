@@ -2,7 +2,7 @@ import icons from 'url:../../img/icons.svg';
 import { Fraction } from 'fractional';
 
 export default class View {
-  _data;
+  _data; // skipcq
 
   /**
    * Render the received object to the DOM
