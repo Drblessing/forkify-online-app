@@ -2,10 +2,10 @@ import View from './View.js';
 import icons from 'url:../../img/icons.svg';
 
 class PreviewView extends View {
-  _parentElement = '';
+  _parentElement = ''; // skipcq
 
   _generateMarkup() {
-    const id = window.location.hash.slice(1); // skipcq
+    const id = window.location.hash.slice(1);
 
     return `
     <li class="preview">
