@@ -130,15 +130,15 @@ export const uploadRecipe = async function (newRecipe) {
           );
         const [quantity, unit, description] = ingArr;
 
-        return { quantity: quantity ? +quantity : null, unit, description };
+        return { quantity: quantity ? Number(quantity) : null, unit, description };
       });
     const recipe = {
       title: newRecipe.title,
       source_url: newRecipe.sourceUrl,
       image_url: newRecipe.image,
       publisher: newRecipe.publisher,
-      cooking_time: +newRecipe.cookingTime,
-      servings: +newRecipe.servings,
+      cooking_time: Number(newRecipe.cookingTime),
+      servings: Number(newRecipe.servings),
       ingredients,
     };
 
