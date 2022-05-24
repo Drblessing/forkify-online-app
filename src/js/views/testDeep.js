@@ -1,9 +1,9 @@
 class TestClass {
   constructor() {}
 
-  #data = 5;
+  data = 5;
 
-  #addData() {
-    return this.#data + this.#data;
+  addData() {
+    return this.data + this.data;
   }
 }
