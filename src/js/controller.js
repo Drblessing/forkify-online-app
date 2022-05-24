@@ -1,7 +1,7 @@
 import * as model from './model.js';
+import { MODAL_CLOSE_SECONDS } from './config.js';
 import addRecipeView from './views/addRecipeView.js';
 import bookmarksView from './views/bookmarksView.js';
-import { MODAL_CLOSE_SECONDS } from './config.js';
 import paginationView from './views/paginationView.js';
 import recipeView from './views/recipeView.js';
 import resultsView from './views/resultsView.js';
@@ -99,7 +99,7 @@ const controlAddRecipe = async function (newRecipe) {
     // Change ID in URL
     window.history.pushState(null, '', `#${model.state.recipe.id}`);
 
-    setTimeout(function () {
+    setTimeout(() => {
       addRecipeView.toggleWindow();
     }, MODAL_CLOSE_SECONDS * 1000);
   } catch (err) {
