@@ -111,12 +111,6 @@ const init = function () {
 
 init();
 
-const clearBookmarks = function () {
-  localStorage.clear('bookmarks');
-};
-
-// clearBookmarks();
-
 export const uploadRecipe = async function (newRecipe) {
   try {
     const ingredients = Object.entries(newRecipe)
@@ -130,7 +124,11 @@ export const uploadRecipe = async function (newRecipe) {
           );
         const [quantity, unit, description] = ingArr;
 
-        return { quantity: quantity ? Number(quantity) : null, unit, description };
+        return {
+          quantity: quantity ? Number(quantity) : null,
+          unit,
+          description,
+        };
       });
     const recipe = {
       title: newRecipe.title,
