@@ -11,3 +11,8 @@ Enjoy! 🧇 🥩
 - Hosting: Cloudflare Pages
 - Architecture: Object-oriented programming (OOP), Model–view–controller (MVC)
 
+## Source
+
+Built along with Jonas Schmedtmann's excellent [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)
+
+
