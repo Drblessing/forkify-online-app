@@ -5,11 +5,11 @@ A simple recipe app! Search for your favorite food and also store your grandmoth
 Enjoy! 🧇 🥩
 
 ## ~~Snack~~ Stack
-- Backend: Node
-- Frontend: VanillaJS
-- Bundler: Parcel
-- Hosting: Cloudflare Pages
 - Architecture: Object-oriented programming (OOP), Model–view–controller (MVC)
+- Backend: Node
+- Bundler: Parcel
+- Frontend: VanillaJS
+- Hosting: Cloudflare Pages
 
 ## Source
 
