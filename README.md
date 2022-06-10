@@ -9,5 +9,5 @@ Enjoy! 🧇 🥩
 - Frontend: VanillaJS
 - Bundler: Parcel
 - Hosting: Cloudflare Pages
-- Architecture: MVC
+- Architecture: MVC, OOP
 
