@@ -9,5 +9,5 @@ Enjoy! 🧇 🥩
 - Frontend: VanillaJS
 - Bundler: Parcel
 - Hosting: Cloudflare Pages
-- Architecture: MVC, OOP
+- Architecture: Object-oriented programming (OOP), Model–view–controller (MVC)
 
