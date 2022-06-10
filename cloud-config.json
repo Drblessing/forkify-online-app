@@ -1,8 +1,8 @@
 {
     "build": "npm run build",
-    "build dir": "./dist",
-    "root dir": "/",
-    "env": {
+    "build dir": "dist",
+    "root dir": " ",
+    "env": { 
         "KEY": "Forkify Api Key"
     }
 }
