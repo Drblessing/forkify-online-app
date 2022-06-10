@@ -10,7 +10,6 @@ export default class View {
    * @returns {undefined | string} A markup string is returned if render = False
    * @this {Object} View instance
    * @author Daniel Blessing
-   * @todo Finish Documentation
    */
   render(data, render = true) {
     if (!data || (Array.isArray(data) && data.length === 0))
